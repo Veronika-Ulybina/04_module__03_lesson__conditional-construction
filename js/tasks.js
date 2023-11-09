@@ -23,6 +23,6 @@
 {
 	const amountMoney = +prompt('Сколько денег Вы хотите снять?');
 
-	const isPossible = amountMoney >= 100 ? 'Возьмите деньги' : 'Операция недоступна';
-	console.log(isPossible);
+	const result = amountMoney >= 100 ? 'Возьмите деньги' : 'Операция недоступна';
+	console.log(result);
 }
